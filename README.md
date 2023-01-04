@@ -17,3 +17,6 @@ Windows Components -> Remote Desktop Service -> Remote Desktop Session Host ->
 Remote Session Environment -> RemoteFX for Windows Server 2008 R2`
     - включаем `Configure RemoteFX`
     - включаем `Optimize visual experience when using RemoteFX` (выбираем `Highest`)
+
+## Настройки [freerdp](https://www.freerdp.com/)
+`xfreerdp +fonts +clipboard +wallpaper +glyph-cache -themes -menu-anims -aero -window-drag /v:{ip домена} /u:{логин} /d:{домен} /w:1920 /h:1080 /f /cert-ignore /rfx /rfx-mode:video /gdi:hw`
