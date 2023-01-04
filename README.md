@@ -4,8 +4,7 @@
 ## Настройки RemoteFX
 Подробнее можно почитать [здесь](https://gist.github.com/Misairu-G/616f7b2756c488148b7309addc940b28#remotefx-configure-and-fine-tuning):
 1. Запускаем `gpedit.msc` через `Win+R`
-2. Идем в `Computer Configuration -> Administrative Templates -> 
-Windows Components -> Remote Desktop Service -> Remote Desktop Session Host -> Remote Session Environment`
+2. Идем в `Computer Configuration -> Administrative Templates -> Windows Components -> Remote Desktop Service -> Remote Desktop Session Host -> Remote Session Environment`
     - включаем `Use advanced RemoteFX graphics for RemoteApp`
     - включаем `Configure compression for RemoteFX data` (выбираем `Do not use an RDP compression algorithm`)
     - включаем `Configure image quality for RemoteFX adaptive Graphics` (выбираем `High`)
