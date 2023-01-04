@@ -14,5 +14,5 @@
     - включаем `Configure RemoteFX`
     - включаем `Optimize visual experience when using RemoteFX` (выбираем `Highest`)
 
-## Настройки [freerdp](https://www.freerdp.com/)
+## Настройки [freerdp](https://www.freerdp.com/) на Linux машине (если коннектимся с неё)
 `xfreerdp +fonts +clipboard +wallpaper +glyph-cache -themes -menu-anims -aero -window-drag /v:{ip домена} /u:{логин} /d:{домен} /w:1920 /h:1080 /f /cert-ignore /rfx /rfx-mode:video /gdi:hw`
