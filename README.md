@@ -1,8 +1,8 @@
 # fast-rdp-settings
-Настройки Windows для быстрого коннекта по RDP протоколу
+Настройки Windows для быстрого коннекта к ней по RDP протоколу
 
 ## Настройки RemoteFX
-As described [here](https://gist.github.com/Misairu-G/616f7b2756c488148b7309addc940b28#remotefx-configure-and-fine-tuning):
+Подробнее можно почитать [здесь](https://gist.github.com/Misairu-G/616f7b2756c488148b7309addc940b28#remotefx-configure-and-fine-tuning):
 1. Запускаем `gpedit.msc` через `Win+R`
 2. Идем в `Computer Configuration -> Administrative Templates -> 
 Windows Components -> Remote Desktop Service -> Remote Desktop Session Host -> 
